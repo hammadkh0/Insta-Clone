@@ -1,0 +1,43 @@
+html{
+    background-color: #FAFAFA;
+}
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.535);
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    border: 0,5px solid black;
+}
+#logo{
+    width: 7rem;
+}
+.icon{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#profilePic{
+    vertical-align: middle;
+    width:  30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: -0.9rem;
+}
+
